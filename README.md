@@ -21,10 +21,10 @@ The purpose of this analysis is to apply deep neural network machine learnign al
       I used the relu function for the hidden layers because it is best for non-linear data.
       I used the sigmoid function for the output layer because sigmoid normalizes the output to a probablility between 0 and 1.
       
-    - *Were you able to achieve the target model performance?*
+    - *Were you able to achieve the target model performance?*                                               
       No
       
-    - *What steps did you take to try and increase model performance?*
+    - *What steps did you take to try and increase model performance?*                                             
       I added another layer with 50 neurons 
       I increased the original layers to 100 and 80 neurons
       I decreased the number of classifications and application types by expanding the bins to try to simplify the input data to the neural network
