@@ -16,15 +16,15 @@ The purpose of this analysis is to apply deep neural network machine learnign al
     ![delete](https://github.com/nsmeltz/Neural_Network_Charity_Analysis/blob/9f803b99525d9cd329d43ae2489345b9cf3491d7/Images/neither.jpg)
     
   - Compiling, Training, and Evaluating the Model
-    - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    - *How many neurons, layers, and activation functions did you select for your neural network model, and why?*      
       There are 38 input features so I added 2-3 times as many neurons to each of the hidden layers (80 and 30 respectively)
       I used the relu function for the hidden layers because it is best for non-linear data.
       I used the sigmoid function for the output layer because sigmoid normalizes the output to a probablility between 0 and 1.
       
-    - Were you able to achieve the target model performance?
+    - *Were you able to achieve the target model performance?*
       No
       
-    - What steps did you take to try and increase model performance?
+    - *What steps did you take to try and increase model performance?*
       I added another layer with 50 neurons 
       I increased the original layers to 100 and 80 neurons
       I decreased the number of classifications and application types by expanding the bins to try to simplify the input data to the neural network
