@@ -1,11 +1,13 @@
 # Neural Network Charity Analysis
 
 ## **Overview** 
-Explain the purpose of this analysis.
+The purpose of this analysis is to apply deep neural network machine learnign algorithms to determine whether or not an organization that is funded by AlphabetSoup is successfull 
 
 ## **Results**
   - Data Preprocessing
     - What variable(s) are considered the target(s) for your model?
+      The target for this model is prediction whether or not the charity is successful.
+      
     - What variable(s) are considered to be the features for your model?
     - What variable(s) are neither targets nor features, and should be removed from the input data?
     
